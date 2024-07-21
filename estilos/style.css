@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #D3D3D3;
+    background-color: #52b7df;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +12,6 @@ body {
 }
 
 header {
-    background-color: #949494;
     margin-bottom: 10px;
 }
 
@@ -63,19 +62,37 @@ menu li a:hover {
 
 
 main {
-    width: 90vw;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
     padding: 10px;
+}
+
+.sobre-mim {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 article h2 {
     padding-bottom: 20px;
 }
 
+article img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 article p {
-    text-align: justify;
-    text-indent: 20px;
+    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
+    background-color: #94949425;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
