@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rowdies:wght@300;400;700&display=swap');
 
 body {
     background-color: #52b7df;
@@ -17,7 +18,16 @@ header {
 
 header h1 {
     padding: 10px;
+    font-size: 40px;
+    font-family: "Rowdies", sans-serif;
+    color: white;
+    font-weight: normal;
     text-align: center;
+}
+
+header h1 span {
+    font-size: 30px;
+    font-family: "Playwrite DK Loopet", cursive;
 }
 
 #burguer {
@@ -25,7 +35,9 @@ header h1 {
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: #444;
+    background-color: #52b7df;
+    border-top: solid 1px rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
     transition: .5s;
 }
 
@@ -45,6 +57,8 @@ menu ul {
 }
 
 menu li a {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 200;
     display: block;
     padding: 10px;
     color: white;
@@ -72,13 +86,17 @@ main {
 .sobre-mim {
     margin: auto;
     width: 300px;
-    background-color: #444;
+    background-color: #52b7df;
     border-radius: 20px;
     margin-bottom: 30px;
 }
 
 article h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #52b7df;
+    text-align: center;
     padding-bottom: 20px;
+    font-family: "Rowdies", sans-serif;
 }
 
 article img {
@@ -90,6 +108,8 @@ article img {
 article p {
     padding: 20px;
     color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 200;
 }
 
 .aventuras p {
@@ -97,9 +117,15 @@ article p {
 }
 
 .aventuras a {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 200;
     text-decoration: none;
-    background-color: black;
+    background-color: #52b7df;
     padding: 10px;
     color: white;
     border-radius: 10px;
+}
+
+.aventuras {
+    margin-bottom: 20px;
 }
