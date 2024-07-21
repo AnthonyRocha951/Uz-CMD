@@ -93,9 +93,9 @@ main {
 }
 
 article h2 {
-    font-size: 2em;
+    font-size: 30px;
     color: white;
-    text-shadow: 1px 1px 1px #52b7df94;
+    text-shadow: 1px 1px 1px black;
     text-align: center;
     padding-bottom: 20px;
     font-family: "Rowdies", sans-serif;
