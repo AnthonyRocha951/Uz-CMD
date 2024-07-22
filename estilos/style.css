@@ -114,6 +114,17 @@ article p {
     font-weight: 200;
 }
 
+.logo-ins img {
+    position: relative;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.logo-ins {
+    text-align: center;
+}
+
 .aventuras p {
     text-align: center;
 }
