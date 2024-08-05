@@ -112,6 +112,7 @@ article p {
     color: white;
     font-family: "Roboto Mono", monospace;
     font-weight: 200;
+    text-align: center;
 }
 
 .logo-ins img {
